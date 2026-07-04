@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Headings (h1-h6): Used to structure page content hierarchy for screen readers and SEO -->
+    <h1>This is the first heading</h1>
+    <h2 id="section-2">This is the second heading</h2>
+    <h3>This is the third heading</h3>
+    <h4>This is the fourth heading</h4>
+    <h5>This is the fifth heading</h5>
+    <h6>This is the sixth heading</h6>
+
+    <!-- Inline text tags: Used to format specific words and add semantic meaning (bold, italic, math, code, etc.) -->
+    <p>
+        The strong tag is used to make a word bold, like <strong>Strong tag</strong>. You can make a word italic in HTML
+        by using the <em>emphasis tag</em>.
+        <br>
+        Let's learn about abbreviations. An abbreviation means a shortened form of a word, like <abbr
+            title="HyperText Markup Language">HTML</abbr>. When you hover over HTML, it shows you the full form. I'm
+        thinking of highlighting some words, <mark>which looks something like this</mark>.
+        <br>
+        When I was outside my house thinking about buying some mangoes, I said, "Give me mangoes for 500 rupees." But
+        the seller said, "I will not sell mangoes for <del>500 rupees</del>. Go somewhere else if you want. If you want
+        to buy from me, then I'll sell them for <ins>800 rupees</ins> only."
+        <br>
+        The formula of water is H<sub>2</sub>O and E = MC<sup>2</sup> for energy and mass.
+        <br>
+        We use the <code>code tag to show or write code on a web page</code>.
+        <br>
+        Here, if a user provides input from the keyboard or uses a shortcut key, we use <kbd>Ctrl</kbd> + <kbd>C</kbd>
+        to copy the selected text. <br>
+        We also have a way to show what the output looks like in code by using the samp tag: <samp>Hello, World!</samp>.
+        <br>
+        In mathematics, you've heard about variables. Yes, that scary variable! So how do you write it on a web page? By
+        using the var tag <var>x</var>. You can see here how a regular word x looks versus the variable <var>x</var>.
+        <br>
+        If you need a double quote, then use the q tag: <q>Hello, this is me, a new dev in town. Welcome!</q>.
+        <br>
+        Here are some tags that most people don't use, like the cite tag. <cite>The cite tag is used to reference a
+            title, like a book title or publisher name</cite>. For example, this song is written by <cite>Sahil</cite>.
+        <br>
+        On a web page, some words are naturally very long. The real meaning here is the <q>wbr</q> tag, which is used
+        when a word is too long and you want it to break in the middle if needed. For example, a long
+        word<wbr>that<wbr>needs<wbr>breaking. <br>
+        Now here is a fun tag. When you are writing something, the next words or sentences will be smaller compared to
+        the previous text. See: <small>Now the words here are smaller than your regular text</small>. <br>
+        And last but not least in the important tag list is the date and time tag:
+        <time datetime="2026-07-02">July 2, 2026</time>
+    </p>
+
+    <!-- Lists: ul (unordered), ol (ordered), and dl (description list) used to group related items -->
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Doodh</li>
+    </ul>
+
+    <ol type="1" start="1">
+        <li>Start the gas stove</li>
+        <li>Put a utensil on the gas stove and preheat it, or boil some water</li>
+        <li>Throw in the Maggi, and boom! Maggi is ready in 2 minutes</li>
+    </ol>
+
+    <ol reversed>
+        <li>3<sup>rd</sup></li>
+        <li>2<sup>nd</sup></li>
+        <li>1<sup>st</sup></li>
+    </ol>
+
+    <dl>
+        <dt>What is HTML</dt>
+        <dd>HTML is HyperText Markup Language - used for structuring web pages, mainly to build the skeleton</dd>
+
+        <dt>What is CSS</dt>
+        <dd>Cascading Style Sheets - used to make the web page beautiful, like makeup over a skeleton</dd>
+    </dl>
+
+    <!-- Hyperlinks (a): Used to navigate between pages or trigger actions (emails, calls, downloads) -->
+    <p>To use a link on a website, we use the anchor tag.</p><br>
+    <a href="https://www.google.com">Click here to go to Google</a><br>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook link</a>
+    <br>
+    <a href="#section-2">Jump to Section 2</a>
+    <br>
+    <a href="mailto:randomgc@gmail.com">Email us</a><br>
+    <a href="tel:+91 123456789">Call us</a><br>
+    <a href="/Blank.jpg" download="blank.jpg">Download this image</a><br>
+
+    <!-- Images & Figures: img displays an image; figure with figcaption groups an image with its text caption -->
+    <img src="https://shorturl.at/cB1uk" alt="Yoda image" height="200px" width="250px">
+
+    <figure>
+        <img src="/topography.webp" alt="Topography image" height="400px" width="400px">
+        <figcaption>This image has some gradient</figcaption>
+    </figure>
+
+    <!--table - not usefull in today's time just to add some data in tabular way only  -->
+
+    <table style="width: 100%;">
+        <tr>
+            <th>company</th>
+            <th>contact</th>
+            <th>country</th>
+        </tr>
+
+        <tr>
+            <td>furios</td>
+            <td>7070</td>
+            <td>germany</td>
+        </tr>
+
+        <tr>
+            <td>telco </td>
+            <td>9142</td>
+            <td>india</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>helll no<sup>th</sup> sem</caption>
+
+        <thead>
+            <th scope="row"></th>
+            <th>maths</th>
+            <th>biology</th>
+            <th>chemistry</th>
+            <th>english</th>
+            <th>physics</th>
+            <th>phe</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Full Marks</th>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Ob marks</th>
+                <td>50</td>
+                <td>60</td>
+                <td>90</td>
+                <td>40</td>
+                <td>30</td>
+                <td>99</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total marks overall</th>
+                <td>total = 369 out of 600</td>
+            </tr>
+        </tfoot>
+    </table> 
+
+</body>
+</html>

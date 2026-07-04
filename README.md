@@ -66,7 +66,16 @@ graph TD
   * **Markup Utility:** Highlights (`<mark>`), abbreviations with tooltips (`<abbr>`), line break rules (`<wbr>`)
   * **Technical Text Representation:** Code elements (`<code>`), terminal output simulator (`<samp>`), variables (`<var>`), keyboard shortcut formats (`<kbd>`)
   * **Metadata & Citations:** Quotations (`<q>`), sources (`<cite>`), machine-readable dates/times (`<time>`)
-* **Playground File:** [frontend/index.html](file:///d:/Web%20dev/frontend/index.html)
+* **Playground File:** [frontend/HTML/index.html](file:///d:/Web%20dev/frontend/HTML/index.html)
+
+### 💡 Day 2: HTML Tables & Forms
+* **Core Goal:** Learn how to present structured tabular data and handle user input through form controls.
+* **Topics & Tags Covered:**
+  * **Tabular Data:** `<table>`, `<caption>`, `<thead>`, `<tbody>`, `<tfoot>`, rows (`<tr>`), header cells (`<th>`), data cells (`<td>`), scopes (`scope="row"`)
+  * **User Inputs & Forms:** `<form>`, text fields (`<input type="text">`), labels (`<label>`), options/choices (`<input type="radio">`, `<input type="checkbox">`), and form submission (`<input type="submit">`)
+* **Playground Files:**
+  * [frontend/HTML/index.html](file:///d:/Web%20dev/frontend/HTML/index.html) (Tables)
+  * [frontend/HTML/form.html](file:///d:/Web%20dev/frontend/HTML/form.html) (Forms)
 
 ---
 
